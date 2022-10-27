@@ -10,10 +10,10 @@
 	
 	function add() {
         if (tallyText !== '') {
-		tallies = [...tallies, tallyText]
-		count[tallyText] = 1
-		tallyText = ''
-    }
+            tallies = [...tallies, tallyText]
+            count[tallyText] = 1
+            tallyText = ''
+        }
 	}
 	
 	function reset() {
